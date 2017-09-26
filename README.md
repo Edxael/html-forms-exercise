@@ -1,3 +1,16 @@
+
+# HTML Forms HomeWork
+
+This fork has the code that i create for this assignment.
+
+![alt text](https://github.com/Edxael/html-forms-exercise/blob/master/IMG/formhw.png")
+
+
+#### By: Edmundo Rubio
+
+
+-------------------------------------------------------------------------------------
+
 # HTML Forms
 
 > Introduction to HTML forms
