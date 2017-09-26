@@ -4,7 +4,7 @@
 ![Screen-Shoot](https://github.com/Edxael/html-forms-exercise/blob/master/IMG/formhw.png "The HomeWork")
 
 
-This fork has the code that i create for this assignment.
+This image is a screen-shoot of the rendered code for this assignment.
 
 #### By: Edmundo Rubio
 
