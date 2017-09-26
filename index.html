@@ -22,25 +22,26 @@
 
 
       <div class="form-container">
-        <form action="" method="post">
+        <form action="#" name="myForm1" method="post">
 
           <label class="myLabel" for="userFirstName">First Name:</label>
-          <input class="myInput" type="text" id="userFirstName" name="" value="" placeholder="Type first name here.">
+          <input class="myInput" type="text" id="userFirstName" name="" value="" placeholder="Type first name here." required>
 
           <label class="myLabel" for="userLastName">Last Name:</label>
-          <input class="myInput" type="text" id="userLastName" name="" value="" placeholder="Type Last name here.">
+          <input class="myInput" type="text" id="userLastName" name="" value="" placeholder="Type Last name here." required>
 
           <label class="myLabel" for="userEmail">Email:</label>
-          <input class="myInput" type="text" id="" name="userEmail" value="" placeholder="Type email here.">
+          <input class="myInput" type="email" id="userEmail" name="userEmail" value="" placeholder="Type email here." required>
 
           <label class="myLabel" for="userAge">Age:</label>
-          <input class="myInput" type="text" id="" name="userAge" value="" placeholder="Type age here.">
+          <input class="myInput" type="number" id="userAge" name="userAge" min="0" max="120" value="" placeholder="Type age here." required>
 
           <label class="myLabel" for="userPassword">Password:</label>
-          <input class="myInput" type="text" id="" name="userPassword" value="" placeholder="Type password here, 6 characters min.">
+          <input class="myInput" type="password" id="userPassword" name="userPassword" min="6" value="" placeholder="Type password here, 6 characters min." required>
 
           <label class="myLabel" for="userBio">Bio:</label>
-          <input class="myInput" type="text" id="userBio" name="" value="" placeholder="Type bio here, 700 characters max.">
+          <!-- <input class="myInput" type="text" id="userBio" name="" value="" placeholder="Type bio here, 700 characters max."> -->
+          <textarea class="myLabel myTexarea" id="userBio" name="name" rows="4" placeholder="Type Bio here"></textarea>
 
           <label class="myLabel" for="userLocation">Location:</label>
           <select class="myInput" id="userLocation" name="state" >
@@ -109,9 +110,13 @@
             <label for="userGenderNot">Prefer not to specify</label>
 
 
+          <div class="buttonsContainer">
+            <button class="myButton1" type="button" name="button" value="Submit" onclick="document.myForm1.submit()"> - SUBMIT - </button>
+            <button class="myButton2" type="button" name="button" onclick="this.form.reset()"> - RESET - </button>
+          </div>
 
 
-          <button class="myButton" type="button" name="button"> - SUBMIT - </button>
+
 
         </form>
       </div>
@@ -121,4 +126,5 @@
     <p class="center-text pfoot">By: Edmundo Rubio</p>
 
   </body>
+  <script src="javascript/code.js" charset="utf-8"></script>
 </html>

@@ -28,7 +28,8 @@ body{
   margin: 0px auto;
   display: block;
 
-  max-width: 469px;
+  /*max-width: 469px;*/
+  max-width: 100%;
   height: auto;
 }
 
@@ -63,19 +64,46 @@ body{
   padding-left: 5px;
 }
 
+.myTexarea{
+  margin-left: 0px;
+  width: 100%;
+}
 
 
-.myButton{
-  display: block;
-  margin: 0px auto;
+
+
+
+.buttonsContainer{
+  margin: 25px auto 5px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.myButton1{
+
+  margin: 0px 3px;
   box-shadow: 5px 5px 5px #888888;
   background-color: rgb(111, 244, 128);
   height: 35px;
   width: 100px;
 }
 
-.myButton:hover{
+.myButton1:hover{
   background-color: rgb(29, 242, 56);
+}
+
+
+.myButton2{
+
+  margin: 0px 3px;
+  box-shadow: 5px 5px 5px #888888;
+  background-color: rgb(185, 136, 255);
+  height: 35px;
+  width: 100px;
+}
+
+.myButton2:hover{
+  background-color: rgb(148, 77, 250);
 }
 
 
